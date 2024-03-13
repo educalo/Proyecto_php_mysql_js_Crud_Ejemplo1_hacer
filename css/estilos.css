@@ -1,0 +1,98 @@
+body{
+      font-family: 'Montserrat', sans-serif;
+  }
+  .linea{
+      display:flex;
+      align-items:center;
+  }
+  .linea img, .estrellas img{
+      width:22px;
+      cursor:pointer;
+  }
+  .listaEditar{
+      margin-top:8px;
+  }
+  .lineaAbierta,.linea{
+      font-size:1.2em;
+  }
+  .bloque img{
+      position:absolute;
+      right:4px;
+      bottom:5px;
+      width:22px;
+      cursor:pointer;
+  }
+  .nombre{
+      width:130px;
+      font-size:0.9em;
+  }
+  .producto{
+      width:75px;
+  }
+  label{
+      display:block;
+      margin:10px 0 1px;
+  }
+  input{
+      font-family: 'Montserrat', sans-serif;
+      border-radius:6px;
+      padding:4px 8px 5px;
+      font-size:1.1em;
+      outline:none;
+      border:1px dotted black;
+  }
+  .listaCargar{
+      font-size:1.2em;
+  }
+  .bloque{
+      position:relative;
+      border:1px solid gray;
+      border-radius:5px;
+      padding:3px 10px 5px;
+      margin-bottom:10px;
+      cursor:pointer;
+  }
+  .listainsertar{
+      margin-top:8px;
+      width:100%;
+  }
+  button{
+      margin-top:20px;
+      padding:6px 14px;
+      background-color:cornflowerblue;
+      border-radius:5px;
+      outline:none;
+      color:white;
+      font-size:1.1em;
+      cursor:pointer;
+      border:none;
+      position:absolute;
+      bottom:10px;
+      right:10px;
+  }
+  button:hover{
+      background-color:royalblue;
+  }
+  section{
+      display:flex;
+  }
+  fieldset{
+      position:relative;
+      height:91vh;
+      border-radius:6px;
+      overflow:auto;
+  }
+  .cargar{
+      width:150px;
+  }
+  .insertar{
+      width:300px;
+      margin:0 8px;
+  }
+  .editar{
+      width:300px;
+  }
+  legend{
+      padding:0 8px;
+      font-size:1.1em;
+  }

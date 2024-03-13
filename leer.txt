@@ -1,0 +1,1 @@
+1.- Hay que colocar la carpeta de htdocs de xampp o liveserver

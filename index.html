@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Domino PHP</title>
+       <!--añadir fuente del css-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="css/estilos.css"/>
+</head>
+<body>
+       <section>
+              <fieldset class="cargar">
+                  <legend>Cargar</legend>
+                  <div class="listaCargar"></div>
+              </fieldset>                   
+              <fieldset class="insertar">
+                  <legend>Insertar</legend>
+                  <label for="titulo">Título de clasificación:</label>
+                  <input id="titulo" placeholder="Título" autofocus/>
+                  <label for="producto">producto:</label>
+                  <input id="producto" placeholder="producto"/>
+                  <div class="listainsertar"></div>
+                  <button class="btinsertar">Insertar</button>
+              </fieldset>
+              <fieldset class="editar">
+                  <legend>Editar</legend>
+                  <label for="tituloEditar">Título de clasificación:</label>
+                  <input id="tituloEditar" placeholder="Título" />
+                  <label for="productoEditar">producto:</label>
+                  <input id="productoEditar" placeholder="producto"/>
+                  <div class="listaEditar"></div>
+                  <button class="bteditar">Editar</button>
+              </fieldset>
+       </section>
+       <script src="js/index.js"></script>
+</body>
+</html>
